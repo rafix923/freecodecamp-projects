@@ -1,25 +1,36 @@
 # freecodecamp-projects
-Projects to obtain the Responsive Web Design Certification
+Projects to obtain the Responsive Web Design Certification:
 
-All five projects were required to use HTML and CSS only.
+1 - Tribute Page
 
-After Completing the five web programming projects, I will be allowed to earn my Responsive Web Design certification. By working on those projects, I got a chance to apply all of the skills, principles and concepts I have learned so far in freecodecamp.org. 
+2 - Survey Form
 
-The curriculum of this course  are: 
+3 - Product Landing Page
 
-1- Basic HTML and HTML5 
+4 - Technical Documentation Page
 
-2- Basic CSS 
+5 - Personal Portfolio Webpage
 
-3- Applied Visual Design 
+All five projects are required to use HTML and CSS only.
 
-4- Applied Accessibility 
+Working on these projects, I got a chance to apply all of the skills, principles and concepts I have learned so far in freecodecamp.org. 
 
-5- Responsive Web Design Principles
+The curriculum of this course is: 
 
-Working on this project I also learned the difference between 'syntax errors' and 'logic errors' and how to debug the HTML and CSS and be sure that they are well-formed.
-The total hours of this course, are 300 hours.
+- Basic HTML and HTML5 
 
-Note: Despite I had spent 300 hours on this course, I have been doing additional study hours to improve the skills acquired. 
+- Basic CSS 
 
-I hope you enjoy it!
+- Applied Visual Design 
+
+- Applied Accessibility
+
+- Responsive Web Design Principles
+
+The total hours of this curriculum are 300 hours.
+
+Even though the total hours of this curriculum are 300 hrs, I have been spending additional hours of studies to improve the skills acquired. 
+
+If you wish to give me some feedback to keep improving it, I would appreciate it.
+
+Good Codes!
