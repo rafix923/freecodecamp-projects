@@ -1,7 +1,7 @@
 # freecodecamp-projects
 Projects to obtain the Responsive Web Design Certification:
 
-1 - Tribute Page
+1 - [Tribute Page](https://github.com/rafix923/freecodecamp-projects/tree/main/responsive-web-design-projects/tribute-page)
 
 2 - Survey Form
 
