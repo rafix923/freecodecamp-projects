@@ -1,4 +1,4 @@
-##  Project 01 of 05 for Responsive Web Design certification
+##  Project 01 of 05 for Responsive Web Design Certification
 
 ###  Build a  Tribute Page 
 
