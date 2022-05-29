@@ -32,9 +32,9 @@ I checked the markup by running the HTML page through the Markup Validation Serv
 ## In Memory of Dr. Martin Luther King Jr.
 
 
-### Link to tribute page. You only need to past it in your browser.
+### Link to tribute page. You only need to past it in your browser: sophisticated-test.surge.sh
 
- sophisticated-test.surge.sh
+ 
 
 ![Screenshot_2](https://user-images.githubusercontent.com/99361183/163681159-eaf8090b-971e-4bc8-b535-00748b7d90a7.png)
 
