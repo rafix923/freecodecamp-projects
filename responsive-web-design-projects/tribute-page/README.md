@@ -32,7 +32,6 @@ I checked the markup by running the HTML page through the Markup Validation Serv
 ## In Memory of Dr. Martin Luther King Jr.
 
 
-### Link to tribute page. You only need to past it in your browser: sophisticated-test.surge.sh
 
  
 
@@ -40,6 +39,9 @@ I checked the markup by running the HTML page through the Markup Validation Serv
 
 ![Screenshot_3](https://user-images.githubusercontent.com/99361183/163681442-e21d55e7-ea25-4e45-be35-cf1b74c60c26.png)
 
+### Link to tribute page. 
+#### You only need to past it in your browser:
+sophisticated-test.surge.sh
 
 
 
