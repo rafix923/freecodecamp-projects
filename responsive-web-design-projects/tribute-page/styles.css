@@ -1,71 +1,83 @@
-#title {
-    text-align: center;
-    color: #FFF;
-    background-color: black;
-    padding: 1.2rem;
-}
-
-#img-caption {
-    font-size: 18px;
-    margin: 15px 0 5px 0;
-    text-align: center;
-}
-
-#image {
-    width: 50%;
-    height: auto;
-    display: block;
-    margin: auto;
-}
-
-h2 {
-    text-align: center;
-    font-size: 1.6rem;
-}
-
-body {
-    background-color: #f0ffff;
-}
-
-.white-background {
-    background-color: white;
-    max-width: 600px;
-    display: block;
-    margin: auto;
-    padding: 2rem;
-}
-
-ul {
-    max-width: 600px;
-    margin: 0 auto;
-    line-height: 1.7rem;
-}
-
-li {
-    padding-bottom: 0.8rem;
-    margin: auto;
-    font-size: 20px;
-}
-
-#tribute-link {
-    font-size: 1.2rem;
-    text-align: center;
-    padding-left: 20rem;
-}
-
-.black-background {
-    background-color: #000;
-    color: #f0ffff;
-    text-align: center;
-    font-size: 1.2rem;
-    margin: 0 auto;
-    padding: 0.2rem;
-}
-
-a:hover {
-    color: #ff0000
-}
-
-.link:hover {
-    transform: scale(1.1);
-}
+                    * {
+                        margin: 0;
+                        padding: 0;
+                    }
+                    
+                    #title {
+                        text-align: center;
+                        color: #FFF;
+                        background-color: black;
+                        padding: 1.2rem;
+                    }
+                    
+                    #img-caption {
+                        font-size: 18px;
+                        margin: 15px 0 5px 0;
+                        text-align: center;
+                    }
+                    
+                    #image {
+                        width: auto;
+                        height: 300px;
+                        display: block;
+                        margin: auto;
+                        padding-top: 50px;
+                        object-fit: contain;
+                    }
+                    
+                    h2 {
+                        text-align: center;
+                        font-size: 1.6rem;
+                    }
+                    
+                    body {
+                        background-color: #f0ffff;
+                    }
+                    
+                    .white-background {
+                        background-color: white;
+                        max-width: 600px;
+                        display: block;
+                        margin: auto;
+                        padding: 2rem;
+                    }
+                    
+                    ul {
+                        max-width: 600px;
+                        margin: 0 auto;
+                        line-height: 1.7rem;
+                    }
+                    
+                    li {
+                        padding-bottom: 0.8rem;
+                        margin: auto;
+                        font-size: 20px;
+                    }
+                    
+                    #tribute-link {
+                        font-size: 1.2rem;
+                        text-align: center;
+                        padding-left: 20rem;
+                    }
+                    
+                    .footer-black-background {
+                        background-color: #000;
+                        color: #f0ffff;
+                        text-align: center;
+                        font-size: 1.2rem;
+                        margin: 0 auto;
+                        padding: 1.3rem;
+                    }
+                    
+                    a:hover {
+                        color: #ff0000
+                    }
+                    
+                    .link:hover {
+                        transform: scale(1.1);
+                    }
+                    
+                    #style-copy-right {
+                        font-size: 16px;
+                        text-align: left;
+                    }
