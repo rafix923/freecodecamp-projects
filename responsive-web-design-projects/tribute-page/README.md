@@ -31,17 +31,12 @@ I checked the markup by running the HTML page through the Markup Validation Serv
 
 ## In Memory of Dr. Martin Luther King Jr.
 
-
-
- 
-
-![Screenshot_2](https://user-images.githubusercontent.com/99361183/163681159-eaf8090b-971e-4bc8-b535-00748b7d90a7.png)
-
-![Screenshot_3](https://user-images.githubusercontent.com/99361183/163681442-e21d55e7-ea25-4e45-be35-cf1b74c60c26.png)
+![image](https://user-images.githubusercontent.com/99361183/170900605-a0dae577-282a-46f3-a3db-bfca92c79593.png)
 
 ### Link to tribute page. 
 #### You only need to past it in your browser:
-sophisticated-test.surge.sh
+ ruddy-territory.surge.sh
+
 
 
 
