@@ -1,47 +1,49 @@
-<!DOCTYPE html>
-<html lang="en">
+    <!DOCTYPE html>
+    <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration Form</title>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registration Form</title>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+    </head>
 
-<body>
+    <body>
 
     <header>
+        <title>Registration Form</title>
         <h1>Registration Form</h1>
     </header>
 
     <p>Please fill out this form with the required information</p>
 
     <form action="https://register-demo.freecodecamp.org">
-        <fieldset>
-            <label for="first-name">Enter Your First Name: <input name="first-name" type="text" required /></label>
+        <fieldset class="border-fildset">
+            <label for="first-name">Enter Your First Name: <input name="first-name" type="text" placeholder="John" required /></label>
 
-            <label for="last-name">Enter Your Last Name: <input name="last-name" type="text" required /></label>
+            <label for="last-name">Enter Your Last Name: <input name="last-name" type="text" placeholder="Smith" required /></label>
 
-            <label for="email">Enter Your Email: <input name="email" type="email" required /></label>
+            <label for="email">Enter Your Email: <input name="email" type="email" placeholder="your@email.com" required /></label>
 
             <label for="password">Create a New Password: <input name="password" type="password" pattern="[a-z0-5]{8,}"
                     required /></label>
         </fieldset>
 
-        <fieldset>
-            <label for="account-type"><input type="radio" name="account-type" /> Personal Account </label>
-            <label for="account-type"><input type="radio" name="account-type" /> Business Account</label>
-            <label for="terms"><input type="checkbox" name="terms" required> I accept the <a
+        <fieldset class="border-fildset>
+            <label for="account-type"><input class="inline" type="radio" name="account-type" value="personal-account"/> Personal Account </label>
+            <label for="account-type"><input class="inline" type="radio" name="account-type" value="business-account"/> Business Account</label>
+            <label for="terms-read"><input class="inline" type="checkbox" name="terms-read" value="terms-read" required> I read the terms and conditions </label>
+            <label for="terms"><input class="inline" type="checkbox" name="terms" value="terms" required> I accept the <a
                     href='https://www.freecodecamp.org/news/terms-of-service'>terms and conditions</a> </label>
         </fieldset>
 
         <fieldset>
             <label for="file">Upload a profile picture:<input name="file" type="file" /></label>
-            <label for="age">Enter your age (years):<input name="age" type="number" min="13" max="120"></label>
+            <label for="age">Input your age (years):<input name="age" type="number" min="13" max="120" placeholder="18"></label>
 
             <label>How did you hear about us?
-                <select name="referrer" id="">
+                <select name="referrer" id="dropdown">
                     <option value="">(select one)</option>
                     <option value="1">freeCodeCamp News</option>
                     <option value="2">freeCodeCamp YouTube Channel</option>
@@ -54,7 +56,7 @@
                 <textarea name="bio" rows="4" cols="50" placeholder="I like coding on the beach..."></textarea>
             </label>
         </fieldset>
-        <input name="submit" type="submit" value="Submit" />
+        <input id="submit" name="submit" type="submit" value="Submit" />
     </form>
 </body>
 
