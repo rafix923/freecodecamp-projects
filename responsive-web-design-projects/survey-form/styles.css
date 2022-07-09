@@ -6,6 +6,7 @@ body {
     color: #f5f6f7;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 16px;
+
 }
 
 label {
@@ -25,9 +26,11 @@ form {
     min-width: 300px;
     width: 60vw;
     padding: 2em;
+    background-color: #3b3b4f;
 }
 
-.border-fieldset, fieldset {
+.border-fieldset,
+fieldset {
     border: none;
     padding: 2rem 0;
 }
@@ -55,7 +58,7 @@ select {
 
 input,
 textarea {
-    background-color: #0a0a23;
+    background-color: #0a0a23; 
     border: 1px solid #0a0a23;
     color: #ffffff;
 }
