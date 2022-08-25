@@ -1,63 +1,64 @@
-    <!DOCTYPE html>
-    <html lang="en">
+<!DOCTYPE html>
+<html lang="pt-BR">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Registration Form</title>
-        <link rel="stylesheet" type="text/css" href="styles.css" />
-    </head>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Formulário de Registro </title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
 
-    <body>
-
+<body>
     <header>
-        <title>Registration Form</title>
-        <h1>Registration Form</h1>
+        <h1> Formulário de Registro </h1>
     </header>
 
-    <p>Please fill out this form with the required information</p>
+    <p> Por favor, preencha o formulário com as informações necessárias </p>
 
     <form action="https://register-demo.freecodecamp.org">
         <fieldset class="border-fieldset">
-            <label for="first-name">Enter Your First Name: <input name="first-name" type="text" placeholder="John" required /></label>
+            <label for="first-name">Digite o seu nome:</label>
+            <input name="first-name" id="first-name" type="text" placeholder="John" required />
 
-            <label for="last-name">Enter Your Last Name: <input name="last-name" type="text" placeholder="Smith" required /></label>
+            <label for="last-name">Digite seu último sobrenome:</label>
+            <input name="last-name" id="last-name" type="text" placeholder="Smith" required />
 
-            <label for="email">Enter Your Email: <input name="email" type="email" placeholder="your@email.com" required /></label>
+            <label for="email">Digite seu Email:</label>
+            <input name="email" type="email" id="email" placeholder="your@email.com" required />
 
-            <label for="password">Create a New Password: <input name="password" type="password" pattern="[a-z0-5]{8,}"
-                    required /></label>
+            <label for="password">Crie uma senha forte:</label>
+            <input name="password" type="password" id="password" pattern="[a-z0-5]{8,}" required />
         </fieldset>
 
-        <fieldset class="border-fieldset>
-            <label for="account-type"><input class="inline" type="radio" name="account-type" value="personal-account"/> Personal Account </label>
-            <label for="account-type"><input class="inline" type="radio" name="account-type" value="business-account"/> Business Account</label>
-            <label for="terms-read"><input class="inline" type="checkbox" name="terms-read" value="terms-read" required> I have read the terms and conditions </label>
-            <label for="terms"><input class="inline" type="checkbox" name="terms" value="terms" required> I accept the <a
-                    href='https://www.freecodecamp.org/news/terms-of-service'>terms and conditions</a> </label>
+        <fieldset class="border-fieldset">
+            <label for="personal-account"><input class="inline" type="radio" name="account-type" id="personal-account" value="personal-account" /> Conta Pessoal </label>
+            <label for="business-account"><input class="inline" type="radio" name="account-type" id="business-account" value="business-account" />
+                Conta Profissional</label>
+            <label for="terms-read"><input class="inline" type="checkbox" name="terms-read" id="terms-read" value="terms-read" required>
+                Eu li e compreendi os termos e condições </label>
+            <label for="terms"><input class="inline" type="checkbox" name="terms" id="terms" value="terms" required> Eu aceito os
+                <a href='https://www.freecodecamp.org/news/terms-of-service'> termos e condições </a></label>
         </fieldset>
 
         <fieldset>
-            <label for="file">Upload your ID document:<input name="file" type="file" /></label>
-            <label for="age">Input your age (years):<input name="age" type="number" min="13" max="120" placeholder="18"></label>
+            <label for="file"> Upload sua identidade:<input name="file" id="file" type="file" /></label>
+            <label for="age"> Sua idade: <input name="age" id="age" type="number" min="13" max="120" placeholder="18"></label>
 
-            <label>How did you hear about us?
+            <label> How did you hear about us? </label>
                 <select name="referrer" id="dropdown">
-                    <option value="">(select one)</option>
+                    <option value="">(Selecione uma opção)</option>
                     <option value="1">Instagram</option>
                     <option value="2">LinkedIn</option>
                     <option value="3">Friends</option>
-                    <option value="4">Other</option>
+                    <option value="4">Outros</option>
                 </select>
-            </label>
+            
 
-            <label>Provide a bio:
-                <textarea name="bio" rows="4" cols="50" placeholder="I like coding on the beach..."></textarea>
-            </label>
+            <label for="submit"> Deixe um comentário: </label>
+                <textarea name="bio" rows="4" cols="50" placeholder="Comece escrevendo sobre você..."></textarea>            
         </fieldset>
         <input id="submit" name="submit" type="submit" value="Submit" />
     </form>
 </body>
-
 </html>
