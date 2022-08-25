@@ -4,7 +4,7 @@
 
 1 - [Tribute Page](https://github.com/rafix923/freecodecamp-projects/tree/main/responsive-web-design-projects/tribute-page)
 
-2 - Survey Form
+2 - [Survey Form](https://github.com/rafix923/freecodecamp-projects/tree/main/responsive-web-design-projects/survey-form)
 
 3 - Product Landing Page
 
@@ -12,7 +12,7 @@
 
 5 - Personal Portfolio Webpage
 
-All five projects are required to use HTML and CSS only.
+All five projects were required to use HTML and CSS only.
 
 Working on these projects, I got a chance to apply all of the skills, principles and concepts I have learned so far in freecodecamp.org. 
 
