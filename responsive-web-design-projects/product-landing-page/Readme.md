@@ -1,30 +1,37 @@
 Project 02 of 05 for Responsive Web Design Certification
 
-
 Build a Product Landing Page
 
 To accomplish this challenge, I had to fulfill the following user stories:
 
-User Story #1: My tribute page should have an element with a corresponding id="main", which contains all other elements.
+User Story #1: Your product landing page should have a header element with a corresponding id="header".
 
-User Story #2: I should see an element with a corresponding id="title", which contains a string (i.e. text) that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug").
+User Story #2: You can see an image within the header element with a corresponding id="header-img" (A logo would make a good image here).
 
-User Story #3: I should see either a figure or a div element with a corresponding id="img-div".
+User Story #3: Within the #header element, you can see a nav element with a corresponding id="nav-bar".
 
-User Story #4: Within the img-div element, I should see an img element with a corresponding id="image".
+User Story #4: You can see at least three clickable elements inside the nav element, each with the class nav-link.
 
-User Story #5: Within the img-div element, I should see an element with a corresponding id="img-caption" that contains textual content describing the image shown in img-div.
+User Story #5: When you click a .nav-link button in the nav element, you are taken to the corresponding section of the landing page.
 
-User Story #6: I should see an element with a corresponding id="tribute-info", which contains textual content describing the subject of the tribute page.
+User Story #6: You can watch an embedded product video with id="video".
 
-User Story #7: I should see an a element with a corresponding id="tribute-link", which links to an outside site that contains additional information about the subject of the tribute page. HINT: You must give your element an attribute of target and set it to _blank in order for your link to open in a new tab (i.e. target="_blank").
+User Story #7: Your landing page has a form element with a corresponding id="form".
 
-User Story #8: The img element should responsively resize, relative to the width of its parent element, without exceeding its original size.
+User Story #8: Within the form, there is an input field with id="email" where you can enter an email address.
 
-User Story #9: The img element should be centered within its parent element.
+User Story #9: The #email input field should have placeholder text to let users know what the field is for.
 
-This tribute page relies on the works of Dr. Martin Luther King Jr., The man who contributed significantly to civil rights in America as well as the world.
+User Story #10: The #email input field uses HTML5 validation to confirm that the entered text is an email address.
 
-Working on this project, I learned the difference between 'syntax errors' and 'logic errors' and how to debug the HTML and CSS and guarantee that they are well-formed.
+User Story #11: Within the form, there is a submit input with a corresponding id="submit".
+
+User Story #12: When you click the #submit element, the email is submitted to a static page (use this mock URL: https://www.freecodecamp.com/email-submit). 
+
+User Story #13: The navbar should always be at the top of the viewport.
+
+User Story #14: Your product landing page should have at least one media query.
+
+User Story #15: Your product landing page should utilize CSS flexbox at least once.
 
 I checked the markup by running the HTML page through the Markup Validation Service at https://validator.w3.org/.
