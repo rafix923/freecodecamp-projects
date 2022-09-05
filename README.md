@@ -6,7 +6,7 @@
 
 2 - [Survey Form](https://github.com/rafix923/freecodecamp-projects/tree/main/responsive-web-design-projects/survey-form)
 
-3 - Product Landing Page
+3 - [Product Landing Page](https://github.com/rafix923/freecodecamp-projects/tree/main/responsive-web-design-projects/product-landing-page)
 
 4 - Technical Documentation Page
 
