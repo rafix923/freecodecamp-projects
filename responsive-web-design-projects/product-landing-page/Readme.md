@@ -45,8 +45,7 @@ I checked the markup by running the HTML page through the Markup Validation Serv
 ![image](https://user-images.githubusercontent.com/99361183/188453461-5080a651-62d2-45c3-b78f-8347a76041c2.png)
 ![image](https://user-images.githubusercontent.com/99361183/188453537-5124150e-410e-4f48-9fb0-ef8d526fb1ab.png)
 
-## Responsive design Mode 
-![Screen Shot 2022-09-05 at 09 53 05](https://user-images.githubusercontent.com/99361183/188454112-f1506087-1c44-4b88-b32a-1f59a3c9a9ad.png)
+## Responsive design Mode
 ![Screen Shot 2022-09-05 at 09 54 58](https://user-images.githubusercontent.com/99361183/188454807-b57c742a-5b34-4316-b62b-e90c51cbd1f6.png)
 
 
