@@ -1,4 +1,4 @@
-## Project 02 of 05 for Responsive Web Design Certification
+Project 03 of 05 for Responsive Web Design Certification
 
 ### Build a Product Landing Page
 
