@@ -20,6 +20,7 @@
         <li><a class="nav-link" href="#variables">Variables</a></li>
         <li><a class="nav-link" href="#declaring_variables">Declaring variables</a></li>
         <li><a class="nav-link" href="#variable_scope">Variable scope</a></li>
+        <li><a class="nav-link" href="#global_variables">Global Variables</a></li>
     </ul>
 </nav>
 
@@ -93,7 +94,8 @@
                 In contrast to Java's compile-time system of classes built by declarations, JavaScript supports a
                 runtime
                 system
-                based on a small number of data types representing numeric, Boolean, and string values. JavaScript has a\
+                based on a small number of data types representing numeric, Boolean, and string values. JavaScript has
+                a\
                 prototype-based object model instead of the more common class-based object model. The prototype-based
                 model
                 provides dynamic inheritance; that is, what is inherited can vary for individual objects. JavaScript
@@ -198,6 +200,20 @@
                 This behavior changes, when using the let declaration introduced in ECMAScript 2015.
             </p>
             <code>if (true) { let y = 5; } console.log(y); // ReferenceError: y is not defined</code>
+        </section>
+        <section class="main-section" id="global_variables">
+            <header>
+                <h2>Global Variables</h2>
+            </header>
+            <p>
+                Global variables are in fact properties of the global object. In web pages the global object is window,
+                so you can set and access global variables using the <i>window.variable syntax.</i>
+            </p>
+            <p>
+                Consequently, you can access global variables declared in one window or frame from another window or
+                frame by specifying the window or frame name. For example, if a variable called phoneNumber is declared
+                in a document, you can refer to this variable from an iframe as parent.phoneNumber.
+            </p>
         </section>
     </main>
 </body>
