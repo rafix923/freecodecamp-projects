@@ -20,3 +20,6 @@ To accomplish this challenge, I had to fulfill the following user stories:
 https://smooth-apple.surge.sh/
 
 ### Desktop image:
+![portfolio1](https://user-images.githubusercontent.com/99361183/188729858-d176046d-03e1-4cd3-8d88-cd5c08668fb8.png)
+
+
