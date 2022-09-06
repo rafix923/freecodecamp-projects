@@ -10,7 +10,7 @@
 
 4 - [Technical Documentation Page](https://github.com/rafix923/freecodecamp-projects/tree/main/responsive-web-design-projects/tecnical-documentation-page)
 
-5 - Personal Portfolio Webpage
+5 - [Personal Portfolio Webpage](https://github.com/rafix923/freecodecamp-projects/blob/main/responsive-web-design-projects/personal-portfolio-webpage)
 
 All five projects were required to use HTML and CSS only.
 
