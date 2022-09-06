@@ -39,3 +39,4 @@ The murkup was checked by running the HTML page through the Markup Validation Se
 ### You can visit the Technical Documentation Page by copying and pasting the link below into browser:
 https://sudden-stem.surge.sh/
 
+![thecnicalPage](https://user-images.githubusercontent.com/99361183/188669172-e0d3cce0-fd7f-453a-a517-28c0c4fab03d.png)
