@@ -36,17 +36,16 @@ To accomplish this challenge, I had to fulfill the following user stories:
 
 I checked the markup by running the HTML page through the Markup Validation Service at https://validator.w3.org/.
 
+### You can copy and past the link below into browser to visit the Landing Page:
+https://shallow-quicksand.surge.sh/
+
 ## Images
 
 ![image](https://user-images.githubusercontent.com/99361183/188452740-3c4c2586-eeba-4a18-b2c8-82708eacac85.png)
-![image](https://user-images.githubusercontent.com/99361183/188453182-50e664e7-3847-4c2c-b28b-0ff5ecb6a3c8.png)
-![image](https://user-images.githubusercontent.com/99361183/188453280-e578c278-cfc7-42b2-9180-69f5382417c5.png)
-![image](https://user-images.githubusercontent.com/99361183/188453368-70e2b4e8-482b-4b8e-8f24-9610f7867979.png)
-![image](https://user-images.githubusercontent.com/99361183/188453461-5080a651-62d2-45c3-b78f-8347a76041c2.png)
-![image](https://user-images.githubusercontent.com/99361183/188453537-5124150e-410e-4f48-9fb0-ef8d526fb1ab.png)
 
-## Responsive design Mode
-![Screen Shot 2022-09-05 at 09 54 58](https://user-images.githubusercontent.com/99361183/188454807-b57c742a-5b34-4316-b62b-e90c51cbd1f6.png)
+
+
+
 
 
 
