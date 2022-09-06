@@ -35,6 +35,3 @@ User Story #14:Inside the form element, you can select several fields from a ser
 User Story #15:Inside the form element, you are presented with a textarea for additional comments.
 
 User Story #16:Inside the form element, you are presented with a button with id of submit to submit all the inputs.
-
-Desktop image:
-
