@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Formulário de Registro </title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+    <header>
+        <h1> Formulário de Registro </h1>
+    </header>
+
+    <p> Por favor, preencha o formulário com as informações necessárias </p>
+
+    <form action="https://register-demo.freecodecamp.org">
+        <fieldset class="border-fieldset">
+            <label for="first-name">Digite o seu nome:</label>
+            <input name="first-name" id="first-name" type="text" placeholder="John" required />
+
+            <label for="last-name">Digite seu último sobrenome:</label>
+            <input name="last-name" id="last-name" type="text" placeholder="Smith" required />
+
+            <label for="email">Digite seu Email:</label>
+            <input name="email" type="email" id="email" placeholder="your@email.com" required />
+
+            <label for="password">Crie uma senha forte:</label>
+            <input name="password" type="password" id="password" pattern="[a-z0-5]{8,}" required />
+        </fieldset>
+
+        <fieldset class="border-fieldset">
+            <label for="personal-account"><input class="inline" type="radio" name="account-type" id="personal-account" value="personal-account" /> Conta Pessoal </label>
+            <label for="business-account"><input class="inline" type="radio" name="account-type" id="business-account" value="business-account" />
+                Conta Profissional</label>
+            <label for="terms-read"><input class="inline" type="checkbox" name="terms-read" id="terms-read" value="terms-read" required>
+                Eu li e compreendi os termos e condições </label>
+            <label for="terms"><input class="inline" type="checkbox" name="terms" id="terms" value="terms" required> Eu aceito os
+                <a href='https://www.freecodecamp.org/news/terms-of-service'> termos e condições </a></label>
+        </fieldset>
+
+        <fieldset>
+            <label for="file"> Upload sua identidade:<input name="file" id="file" type="file" /></label>
+            <label for="age"> Sua idade: <input name="age" id="age" type="number" min="13" max="120" placeholder="18"></label>
+
+            <label> How did you hear about us? </label>
+                <select name="referrer" id="dropdown">
+                    <option value="">(Selecione uma opção)</option>
+                    <option value="1">Instagram</option>
+                    <option value="2">LinkedIn</option>
+                    <option value="3">Amigos</option>
+                    <option value="4">Outros</option>
+                </select>
+            
+
+            <label for="submit"> Deixe um comentário: </label>
+                <textarea name="bio" rows="4" cols="50" placeholder="Comece escrevendo sobre você..."></textarea>            
+        </fieldset>
+        <input id="submit" name="submit" type="submit" value="Submit" />
+    </form>
+</body>
+</html>
