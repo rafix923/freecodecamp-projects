@@ -9,11 +9,23 @@ nav {
     justify-content: flex-end;
     background-color: rgb(85, 8, 8);
     padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    padding-right: 10%;
+    font-size: 1.2rem;
 }
 
 nav a {
     color: #fff;
-    margin-left: 20px;
+    margin-left: 4%;
+    text-decoration: none;
+}
+
+nav a:hover {
+border-bottom: 2px solid #fff;
 }
 
 header {
@@ -97,6 +109,11 @@ section p{
     max-width: 100%;
 }
 
+.project p{
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
 .social-background{
     background-color: #a64253;
     color: #fff;
@@ -109,6 +126,7 @@ section p{
     padding: 0;
     margin: 0;
 }
+
 
 .social-icons a{
     color: #fff;
