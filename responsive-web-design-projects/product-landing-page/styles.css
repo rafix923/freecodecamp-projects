@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    background-color: rgb(36, 34, 34);
+}
+
+header {
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid #466995;
+    background-color: #779dca;
+    justify-content: space-between;
+    width: 100%;
+    z-index: 10;
+    margin-left: 0;
+}
+
+p {
+    color: aliceblue;
+}
+
+.logo {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+
+    li {
+        font-size: 0.8rem;
+        margin: 5px;
+    }
+
+    footer {
+        font-size: 12px;
+        margin-left: 5px;
+    }
+}
+
+svg {
+    width: 200px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    font-weight: 400;
+}
+
+li:hover {
+    font-size: 18px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+form {
+    display: flex;
+    position: relative;
+    text-align: center;
+    margin: 100px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+section {
+    display: grid;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+}
+
+iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+}
+
+footer {
+    color: aliceblue;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
