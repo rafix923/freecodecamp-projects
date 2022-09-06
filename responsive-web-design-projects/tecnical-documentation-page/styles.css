@@ -9,11 +9,11 @@
     float: left;
 }
 
-#navbar{
+#navbar {
     margin-right: 50px;
 }
 
-#navbar li{
+#navbar li {
     list-style: none;
 }
 
@@ -30,13 +30,13 @@
     color: white;
 }
 
-#header-title{
+#header-title {
     font-size: 1.6rem;
     text-align: center;
     margin-top: 5px;
 }
 
-.main-section{
+.main-section {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     margin-left: 80px;
@@ -44,26 +44,26 @@
     line-height: 1.6;
 }
 
-.main-section li{
+.main-section li {
     display: flexbox;
     margin-bottom: 10px;
     align-content: center;
     left: 100px;
 }
 
-code{
+code {
     display: flex;
     background-color: rgb(254, 210, 145);
     border-radius: 4px;
     padding: 10px;
-    width: 40vw;
+    width: fit-content;
 }
 
-footer{
+footer {
     height: 5vh;
 }
 
-@media(max-width:768px) {
+@media(max-width:400px) {
     body {
         background-color: #eeeeee;
     }
