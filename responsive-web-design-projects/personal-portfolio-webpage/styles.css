@@ -79,6 +79,24 @@ section p{
     margin-top: 0;
 }
 
+.projects-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 810px;
+    margin: 20px auto 0;
+}
+
+.project{
+    margin: 10px;
+    max-width: 250px;
+}
+
+.project img{
+    max-width: 100%;
+}
+
 .social-background{
     background-color: #a64253;
     color: #fff;
