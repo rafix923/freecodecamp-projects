@@ -13,47 +13,58 @@
 
 <body>
     <nav id="navbar">
-        <a href="sobre_mim">Sobre mim</a>
-        <a href="projetos">Projetos</a>
-        <a href="contate_me">Contate-me</a>
+        <a href="#welcome-section">Sobre mim</a>
+        <a href="#projects">Projetos</a>
+        <a href="#social">Contate-me</a>
     </nav>
-    <header id="about">
-        <h1>Olá!</h1>
-        <p>Me chamo Rafael</p>
-        <p>Sou apaixonado por Desenvolvimento Web e música</p>
+    <header id="welcome-section">
+            <h1>Olá!</h1>
+            <p>Me chamo Rafael</p>
+            <p>Sou apaixonado por Desenvolvimento Web e música</p>
     </header>
     <section id="projects">
-        <h2>Projetos</h2>
+        <h2 id="project-title">Projetos</h2>
         <div class="projects-container">
-            <div class="project">
-                <img src="https://user-images.githubusercontent.com/99361183/170900605-a0dae577-282a-46f3-a3db-bfca92c79593.png" alt="Martin luther king jr. marching for civil rights">
+            <div class="project-tile">
+                <img src="https://user-images.githubusercontent.com/99361183/170900605-a0dae577-282a-46f3-a3db-bfca92c79593.png"
+                    alt="Martin luther king jr. marching for civil rights">
+                    <a href="https://ruddy-territory.surge.sh/" target="_blank">
                 <p>Página de Homenagem</p>
+            </a>
             </div>
-            <div class="project">
-            <img src="https://user-images.githubusercontent.com/99361183/188655840-73742ebb-7329-495c-9171-b40f7671d2b4.png" alt="Formulário de pesquisa">
-            <p>Formulário de Pesquisa</p>
+            <div class="project-tile">
+                <img src="https://user-images.githubusercontent.com/99361183/188655840-73742ebb-7329-495c-9171-b40f7671d2b4.png"
+                    alt="Formulário de pesquisa">
+                    <a href="https://rafaellopes.surge.sh/" target="_blank">
+                <p>Formulário de Pesquisa</p>
+            </a>
+            </div>
+            <div class="project-tile">
+                <img src="https://user-images.githubusercontent.com/99361183/188452740-3c4c2586-eeba-4a18-b2c8-82708eacac85.png"
+                    alt="">
+                    <a href="https://shallow-quicksand.surge.sh/" target="_blank">
+                <p>Landing Page de Produto</p>
+            </a>
+            </div>
+            <div class="project-tile">
+                <img src="https://user-images.githubusercontent.com/99361183/188669172-e0d3cce0-fd7f-453a-a517-28c0c4fab03d.png"
+                    alt="Página de documentação técnica">
+                    <a href="https://sudden-stem.surge.sh/" target="_blank">
+                <p>Página de Documentação Técnica</p>
+            </a>
+            </div>
         </div>
-        <div class="project">
-            <img src="https://user-images.githubusercontent.com/99361183/188452740-3c4c2586-eeba-4a18-b2c8-82708eacac85.png" alt="">
-            <p>Landing Page de Produto</p>
-        </div>
-        <div class="project">
-            <img src="https://user-images.githubusercontent.com/99361183/188669172-e0d3cce0-fd7f-453a-a517-28c0c4fab03d.png" alt="Página de documentação técnica">
-            <p>Página de Documentação Técnica</p>
-        </div>           
-    </div>        
     </section>
     <section id="social" class="social-background">
         <h2>Midias Sociais</h2>
         <p>Você pode entrar em contato comigo por...</p>
-        <ul class="social-icons" >
+        <ul class="social-icons">
             <li><a href="https://twitter.com/RafaelL77859907" target="_blank"><i class="fab fa-twitter"></i></a></li>
             <li><a href="https://www.instagram.com/rafaellopes.dev" target="_blank"><i class="fab fa-instagram"></i></a></li>
             <li><a href="https://www.linkedin.com/in/rafael-lopes-fullstack-developer/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-            <li><a href="https://github.com/rafix923" target="_blank"><i class="fab fa-github"></i></a></li>
+            <li><a id="profile-link" href="https://github.com/rafix923" target="_blank"><i class="fab fa-github"></i></a></li>
         </ul>
     </section>
     <footer>Feito com <i class="fas fa-heart"></i>por Rafael Lopes</footer>
 </body>
-
 </html>
