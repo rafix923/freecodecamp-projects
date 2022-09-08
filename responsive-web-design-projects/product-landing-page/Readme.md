@@ -37,11 +37,12 @@ To accomplish this challenge, I had to fulfill the following user stories:
 I checked the markup by running the HTML page through the Markup Validation Service at https://validator.w3.org/.
 
 ### You can copy and past the link below into browser to visit the Landing Page:
-https://shallow-quicksand.surge.sh/
+oafish-wealth.surge.sh
 
 ## Images
+![image](https://user-images.githubusercontent.com/99361183/189170235-29b94375-9979-4059-bb8d-9e6d03d56f6b.png)
 
-![image](https://user-images.githubusercontent.com/99361183/188452740-3c4c2586-eeba-4a18-b2c8-82708eacac85.png)
+
 
 
 
