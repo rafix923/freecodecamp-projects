@@ -39,7 +39,7 @@ I checked the markup by running the HTML page through the Markup Validation Serv
 ### You can copy and past the link below into browser to visit the Landing Page:
 oafish-wealth.surge.sh
 
-## Images
+## Desktop Image
 ![image](https://user-images.githubusercontent.com/99361183/189170235-29b94375-9979-4059-bb8d-9e6d03d56f6b.png)
 
 
